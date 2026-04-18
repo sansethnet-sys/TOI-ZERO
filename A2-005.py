@@ -1,6 +1,6 @@
 W , H , N , M = map(int,input().split())
-N = [0]+list(map(int,input().split()))+[W]
-M = [0]+list(map(int,input().split()))+[H]
+N = list(map(int,[0]+input().split()+[W]))
+M = list(map(int,[0]+input().split()+[H]))
 tmp = [0]
 for i in range(len(N)-1):
     for j in range(len(M)-1):
