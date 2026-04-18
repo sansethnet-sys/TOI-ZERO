@@ -1,1 +1,2 @@
-for i in range(int(input())): print(end=("*X")[i%5==4])
+for i in range(int(input())):
+  print(end=("*X")[i%5==4])
