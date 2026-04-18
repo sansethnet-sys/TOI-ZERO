@@ -1,0 +1,5 @@
+N = int(input())
+if N<0 : print("Error : Please input positive number")
+elif N>9 or N==0 : print("Error : Out of range")
+elif N%5!=4 : print("V"*(N//5)+"I"*(N%5))
+else : print("I"+"X"*(N>5)+"V"*(N<5))

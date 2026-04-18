@@ -1,0 +1,7 @@
+t , p = int(input()) , input().lower()
+if p=='c' and t>99 : print("gas")
+elif p=='c' and t>0 : print("liquid")
+elif p!='f' : print("solid")
+elif t<33 : print("solid")
+elif t<212 : print("liquid")
+else : print("gas")

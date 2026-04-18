@@ -1,0 +1,5 @@
+c , d = input() , input()
+if c+d=="H4567": print("safe unlocked")
+elif c=="H": print("safe locked - change digit")
+elif d=="4567": print("safe locked - change char")
+else: print("safe locked")

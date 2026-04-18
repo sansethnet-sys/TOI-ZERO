@@ -1,0 +1,12 @@
+t = list(map(int,list(input())))
+t = [0]*(4-len(t))+t
+print("M"*t[0],end="")
+if t[1]==9 : print("CM",end="")
+elif t[1]==4 : print("CD",end="")
+else : print("D"*(t[1]//5)+"C"*(t[1]%5),end="")
+if t[2]==9 : print("XC",end="")
+elif t[2]==4 : print("XL",end="")
+else : print("L"*(t[2]//5)+"X"*(t[2]%5),end="")
+if t[3]==9 : print("IX")
+elif t[3]==4 : print("IV")
+else : print("V"*(t[3]//5)+"I"*(t[3]%5))

@@ -1,0 +1,1 @@
+print("".join([("****X")[i%5] for i in range(int(input()))]))

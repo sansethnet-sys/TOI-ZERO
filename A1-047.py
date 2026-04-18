@@ -1,0 +1,5 @@
+t = int(input()) * int(input())
+if t//60 and t%60 : print(t//60,"hours",t%60,"minutes")
+elif t//60 : print(t//60,"hours")
+elif t%60 : print(t%60,"minutes")
+else : print("No teaching")
