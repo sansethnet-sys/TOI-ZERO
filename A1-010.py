@@ -1,7 +1,3 @@
-ag = int(input(""))
-if(ag<0): ag = -ag
-ts = input("")
-if(ag<18): print("20")
-elif(ts=="S"): print("20")
-elif(ts=="s"): print("20")
-else: print("50")
+ag , ts = int(input()) , input().upper()
+if abs(ag)<18 or ts=="S": print(20)
+else: print(50)
