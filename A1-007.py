@@ -1,2 +1,2 @@
-if input().lower() in "aeiou": print("yes")
-else: print("no")
+if input().lower() in "aeiou" : print("yes")
+else : print("no")
